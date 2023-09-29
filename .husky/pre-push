@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 yarn filenamelint
-yarn type-check
+yarn typecheck
 yarn eslint
