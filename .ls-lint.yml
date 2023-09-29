@@ -1,0 +1,32 @@
+ls:
+  .js: kebab-case | point.case
+  .ts: kebab-case | point.case
+  .tsx: kebab-case
+  .d.ts: kebab-case
+  .css: kebab-case
+  .yml: kebab-case | point.case
+  .yaml: kebab-case | point.case
+  .json: kebab-case | point.case
+  .dir: lowercase
+
+  public:
+    .dir: snake_case
+    .jpeg: snake_case
+    .jpg: snake_case
+    .png: snake_case
+    .svg: snake_case
+
+  src:
+    .dir: camelCase
+    .ts: camelCase
+    .tsx: camelCase
+    .test.tsx: camelCase
+    .test.ts: camelCase
+    .json: kebab-case | snake_case
+
+ignore:
+  - .git
+  - .vscode
+  - node_modules
+  - .ls-lint.yml
+  - src/pages/_app.tsx
